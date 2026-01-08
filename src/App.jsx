@@ -8,12 +8,12 @@ import { TechStack } from './components/sections/TechStack';
 import { Contact } from './components/sections/Contact';
 import { Background } from './components/ui/Background';
 import { SEO } from './components/SEO';
-import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from '@dr.pogodin/react-helmet';
 
 function App() {
   return (
     <HelmetProvider>
-      <SEO 
+      <SEO
         title="DevStudio - Desarrollo Full Stack de Alto Nivel"
         description="Soluciones robustas de software para problemas complejos. Desarrollo Web, Mobile, Arquitectura de Datos y BI Analytics. Transformo datos en decisiones y visiones en software."
         url="https://devstudio.com"
